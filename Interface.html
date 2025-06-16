@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sky Scholar</title>
+    <link rel="stylesheet" href="pr1.css" />
+</head>
+<body>
+    <!-- Sticky Header with Nav -->
+    <header class="header sticky">
+        <div class="header-inner">
+            <img src="logo.png" alt="Sky Scholar Logo" class="logo-center" />
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#circular">Circular</a>
+                <a href="#competitions">Competitions</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+            </nav>
+            <button id="darkModeToggle">🌙</button>
+        </div>
+    </header>
+
+    <!-- Loading Spinner -->
+    <div id="spinner">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <main>
+        <!-- Landing Options -->
+        <section class="landing-options card glass" id="landingOptions">
+            <div class="sky-center">
+                <img src="logo.png" alt="Sky Scholar Logo" class="logo-center big" />
+                <h2>Sky Scholar</h2>
+                <p class="tagline">The Gateway to Aerospace Learning</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn" id="adminOption">Admin Cockpit</button>
+                <button class="btn" id="studentOption">Student Cockpit</button>
+            </div>
+        </section>
