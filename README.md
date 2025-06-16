@@ -70,7 +70,7 @@ Contributions are welcome. For major changes, please open an issue to discuss po
 
 ## MIT License
 
-Copyright (c) 2025 T Karthik
+Copyright (c) 2025 Tammana SaiSrinivas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
