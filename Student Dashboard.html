@@ -1,0 +1,75 @@
+<!-- Student Dashboard -->
+        <div class="student-portal" id="studentPortal" style="display:none;">
+            <div class="student-header">
+                <h2>Welcome, <span id="studentNameDisplay"></span> 🧑‍✈️</h2>
+                <button id="studentLogout" class="logout-btn btn">Logout</button>
+            </div>
+            <div class="student-actions">
+                <button class="stud-tab btn" data-tab="timetableTab">Flight Schedule</button>
+                <button class="stud-tab btn" data-tab="attendanceTab">Attendance</button>
+                <button class="stud-tab btn" data-tab="paymentTab">Payments</button>
+                <button class="stud-tab btn" data-tab="marksTab">My Marks</button>
+                <button class="stud-tab btn" data-tab="recordsTab">Logbook Upload</button>
+                <button class="stud-tab btn" data-tab="projectsTab">My Projects</button>
+                <button class="stud-tab btn" data-tab="competitionsTab">Competitions</button>
+            </div>
+            <div class="student-tab-content" id="timetableTab">
+                <h3>Flight Schedule & Exams</h3>
+                <ul id="studentEvents"></ul>
+                <ul>
+                    <li>12th July: Mathematics II</li>
+                    <li>15th July: Physics II</li>
+                    <li>18th July: Data Structures</li>
+                    <li>21st July: Digital Logic</li>
+                </ul>
+            </div>
+            <div class="student-tab-content" id="attendanceTab" style="display:none;">
+                <h3>Attendance (Flight Hours)</h3>
+                <ul>
+                    <li>Mathematics II: 92%</li>
+                    <li>Physics II: 89%</li>
+                    <li>Data Structures: 95%</li>
+                    <li>Digital Logic: 88%</li>
+                </ul>
+            </div>
+            <div class="student-tab-content" id="paymentTab" style="display:none;">
+                <h3>Payments</h3>
+                <p>Semester Fee: <strong>₹30,000</strong></p>
+                <button id="payNowBtn" class="btn">Pay Now</button>
+                <div id="paymentMsg"></div>
+            </div>
+            <div class="student-tab-content" id="marksTab" style="display:none;">
+                <h3>Marks (Flight Results)</h3>
+                <table id="studentMarksTable">
+                  <thead>
+                    <tr>
+                      <th>Type</th>
+                      <th>Subject</th>
+                      <th>Mark</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+            </div>
+            <div class="student-tab-content" id="recordsTab" style="display:none;">
+                <h3>Upload Logbook</h3>
+                <input type="file" id="labUpload" />
+                <div id="labUploadMsg"></div>
+            </div>
+            <div class="student-tab-content" id="projectsTab" style="display:none;">
+                <h3>My Projects</h3>
+                <ul id="studentProjects"></ul>
+                <form id="projectUploadForm">
+                    <input type="text" placeholder="Project Title" required />
+                    <input type="file" required />
+                    <button type="submit" class="btn">Upload Update</button>
+                </form>
+                <div id="projectUploadMsg"></div>
+            </div>
+            <div class="student-tab-content" id="competitionsTab" style="display:none;">
+                <h3>Upcoming Competitions</h3>
+                <ul id="studentCompetitions"></ul>
+            </div>
+        </div>
