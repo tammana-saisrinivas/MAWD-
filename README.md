@@ -40,15 +40,15 @@ Welcome to **Sky Scholar**, a conceptual aeronautics-themed student portal desig
 
 | Section                      | Preview                  |
 |-----------------------------|------------------------|
-| **Homepage/Interface**       | ![Homepage](screenshots/homepage.png) |
-| **Admin Login**              | ![Admin Login](screenshots/admin-page.png) |
-| **Student Login**            | ![Student Login](screenshots/student-page.png) |
+| **Homepage/Interface**       | ![Homepage](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Interface.png) |
+| **Admin Login**              | ![Admin Login](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Admin%20Login.png) |
+| **Student Login**            | ![Student Login](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Student%20Login.png) |
 | **Admin Dashboard**          | ![Admin Dashboard](screenshots/exam-circulars.png) |
 | **Student Dashboard**        | ![Student Dashboard](screenshots/competitions-section.png) |
 | **Exam Circulars**           | ![Exam Circulars](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Exam%20Circulars.png) |
 | **Competitions & Festivals** | ![Competition and Festivals](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Competitionand%20festivals.png) |
 | **Batch Memories (Gallery)** | ![Gallery](screenshots/crew-section.png) |
-| **Crew Section**             | ![Crew](screenshots/footer.png) |
+| **Crew Section**             | ![Crew](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Crew%20Footer.png) |
 | **Footer**                   | ![Footer](screenshots/dark-mode.png) |
 
 ---
