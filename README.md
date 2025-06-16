@@ -40,16 +40,16 @@ Welcome to **Sky Scholar**, a conceptual aeronautics-themed student portal desig
 
 | Section                      | Preview                  |
 |-----------------------------|------------------------|
-| **Homepage/Login**           | ![Homepage](screenshots/homepage.png) |
-| **Admin Dashboard**          | ![Admin](screenshots/admin-page.png) |
-| **Student Dashboard**        | ![Student](screenshots/student-page.png) |
-| **Exam Circulars**           | ![Circulars](screenshots/exam-circulars.png) |
-| **Upcoming Competitions**    | ![Competitions](screenshots/competitions-section.png) |
-| **Upcoming Festivals**       | ![Festivals](screenshots/festivals-section.png) |
-| **Batch Memories (Gallery)** | ![Gallery](screenshots/batch-memories.png) |
-| **Crew Section**             | ![Crew](screenshots/crew-section.png) |
-| **Footer**                   | ![Footer](screenshots/footer.png) |
-| **Dark Mode Toggle (Top Nav)** | ![DarkMode](screenshots/dark-mode.png) |
+| **Homepage/Interface**       | ![Homepage](screenshots/homepage.png) |
+| **Admin Login**              | ![Admin](screenshots/admin-page.png) |
+| **Student Login**            | ![Student](screenshots/student-page.png) |
+| **Admin Dashboard**          | ![Circulars](screenshots/exam-circulars.png) |
+| **Student Dashboard**        | ![Competitions](screenshots/competitions-section.png) |
+| **Exam Circulars**           | ![Festivals](screenshots/festivals-section.png) |
+| **Competitions & Festivals** | ![Gallery](screenshots/batch-memories.png) |
+| **Batch Memories (Gallery)** | ![Crew](screenshots/crew-section.png) |
+| **Crew Section**             | ![Footer](screenshots/footer.png) |
+| **Footer**                   | ![DarkMode](screenshots/dark-mode.png) |
 
 ---
 
