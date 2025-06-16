@@ -41,15 +41,15 @@ Welcome to **Sky Scholar**, a conceptual aeronautics-themed student portal desig
 | Section                      | Preview                  |
 |-----------------------------|------------------------|
 | **Homepage/Interface**       | ![Homepage](screenshots/homepage.png) |
-| **Admin Login**              | ![Admin](screenshots/admin-page.png) |
-| **Student Login**            | ![Student](screenshots/student-page.png) |
-| **Admin Dashboard**          | ![Circulars](screenshots/exam-circulars.png) |
-| **Student Dashboard**        | ![Competitions](screenshots/competitions-section.png) |
-| **Exam Circulars**           | ![Festivals](screenshots/festivals-section.png) |
-| **Competitions & Festivals** | ![Gallery](screenshots/batch-memories.png) |
-| **Batch Memories (Gallery)** | ![Crew](screenshots/crew-section.png) |
-| **Crew Section**             | ![Footer](screenshots/footer.png) |
-| **Footer**                   | ![DarkMode](screenshots/dark-mode.png) |
+| **Admin Login**              | ![Admin Login](screenshots/admin-page.png) |
+| **Student Login**            | ![Student Login](screenshots/student-page.png) |
+| **Admin Dashboard**          | ![Admin Dashboard](screenshots/exam-circulars.png) |
+| **Student Dashboard**        | ![Student Dashboard](screenshots/competitions-section.png) |
+| **Exam Circulars**           | ![Exam Circulars](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Exam%20Circulars.png) |
+| **Competitions & Festivals** | ![Competition and Festivals](https://raw.githubusercontent.com/tammana-saisrinivas/MAWD-/main/images/Competitionand%20festivals.png) |
+| **Batch Memories (Gallery)** | ![Gallery](screenshots/crew-section.png) |
+| **Crew Section**             | ![Crew](screenshots/footer.png) |
+| **Footer**                   | ![Footer](screenshots/dark-mode.png) |
 
 ---
 
