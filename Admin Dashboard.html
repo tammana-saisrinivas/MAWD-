@@ -1,0 +1,110 @@
+ <!-- Admin Login -->
+        <div class="login-container" id="adminLogin" style="display:none;">
+            <h3>🛩️ Admin Cockpit Login</h3>
+            <form id="adminLoginForm">
+                <input type="text" placeholder="Admin Username" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit" class="btn">Log In</button>
+            </form>
+            <p class="back"><a href="#" id="backToLanding1">← Back</a></p>
+        </div>
+
+        <!-- Student Login -->
+        <div class="login-container" id="studentLogin" style="display:none;">
+            <h3>🧑‍✈️ Student Cockpit Login</h3>
+            <form id="studentLoginForm">
+                <input type="text" placeholder="Student Name" required />
+                <input type="text" placeholder="Roll Number" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit" class="btn">Log In</button>
+            </form>
+            <p class="back"><a href="#" id="backToLanding2">← Back</a></p>
+        </div>
+
+        <!-- Admin Dashboard -->
+        <div class="admin-portal" id="adminPortal" style="display:none;">
+            <h2>Flight Board (Admin)</h2>
+            <div class="admin-actions">
+                <button id="showAddStudent">Add Pilot</button>
+                <button id="showStudentList">View Pilots</button>
+                <button id="showProjects">Projects</button>
+                <button id="showCompetitions">Competitions</button>
+                <button id="showSchedule">Flight Schedule</button>
+                <button id="showMarkingSystem">Marking System</button>
+                <button id="adminLogout">Logout</button>
+            </div>
+            <!-- Add Student -->
+            <div class="admin-section" id="addStudentSection" style="display:none;">
+                <h3>Add Pilot</h3>
+                <form id="addStudentForm">
+                    <input type="text" placeholder="Pilot Name" required />
+                    <input type="text" placeholder="Roll Number" required />
+                    <input type="text" placeholder="Password" required />
+                    <button type="submit" class="btn">Add</button>
+                </form>
+                <div id="addStudentMsg"></div>
+            </div>
+            <!-- Student List -->
+            <div class="admin-section" id="studentListSection" style="display:none;">
+                <h3>Pilot Roster</h3>
+                <table id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Roll No.</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <!-- Projects -->
+            <div class="admin-section" id="projectsSection" style="display:none;">
+                <h3>Assign Projects</h3>
+                <form id="addProjectForm">
+                    <input type="text" placeholder="Project Title" required />
+                    <input type="text" placeholder="Assign to (Roll No.)" required />
+                    <button type="submit" class="btn">Assign</button>
+                </form>
+                <ul id="projectList"></ul>
+            </div>
+            <!-- Competitions -->
+            <div class="admin-section" id="competitionsSection" style="display:none;">
+                <h3>Schedule Competition</h3>
+                <form id="addCompetitionForm">
+                    <input type="text" placeholder="Competition Name" required />
+                    <input type="date" required />
+                    <button type="submit" class="btn">Schedule</button>
+                </form>
+                <ul id="competitionList"></ul>
+            </div>
+            <!-- Schedule -->
+            <div class="admin-section" id="scheduleSection" style="display:none;">
+                <h3>Add Exam/Flight</h3>
+                <form id="addEventForm">
+                    <input type="text" placeholder="Event Title" required />
+                    <input type="date" required />
+                    <button type="submit" class="btn">Add Event</button>
+                </form>
+                <ul id="eventList"></ul>
+            </div>
+            <!-- Marking System -->
+            <div class="admin-section" id="markingSystemSection" style="display:none;">
+                <h3>Marking System (Labs & Exams)</h3>
+                <select id="markBatchSelect"></select>
+                <table id="markStudentTable">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Roll No.</th>
+                      <th>Lab Mark</th>
+                      <th>Exam Mark</th>
+                      <th>Lab Record Status</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+            </div>
+        </div>
