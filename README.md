@@ -23,6 +23,47 @@ Welcome to **Sky Scholar**, a conceptual aeronautics-themed student portal desig
 ---
 
 ## 🏗️ Project Structure
+/ (root)
+│
+├── Interface.html            # Main Interface (Login / Home Page)
+├── Admin.html            # Admin Dashboard
+├── Student.html          # Student Dashboard
+├── Community.html        # Events, Competitions, Crew Section, Footer
+│
+├── /css
+│     └── style.css       # Styling for all pages
+│
+├── /js
+│     └── script.js       # JavaScript (primarily designed for single-page use)
+│
+├── /images               # All images stored here
+│     ├── logo.png
+│     ├── homepage-bg.jpg
+│     ├── admin-bg.jpg
+│     ├── student-bg.jpg
+│     ├── circulars.png
+│     ├── competitions.png
+│     ├── festivals.png
+│     ├── crew1.jpg
+│     ├── crew2.jpg
+│     ├── batch1.jpg
+│     ├── batch2.jpg
+│     └── ... (any other images used)
+│
+├── /screenshots          # Screenshots of various sections for GitHub preview
+│     ├── homepage.png
+│     ├── admin-page.png
+│     ├── student-page.png
+│     ├── exam-circulars.png
+│     ├── competitions-section.png
+│     ├── festivals-section.png
+│     ├── batch-memories.png
+│     ├── crew-section.png
+│     ├── footer.png
+│     └── dark-mode.png
+│
+├── LICENSE              # MIT License file
+└── README.md            # Project description and documentation
 
 
 ---
